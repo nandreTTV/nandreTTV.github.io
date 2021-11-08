@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{box-sizing: border-box;}
+
+/* Extra small devices (phones, 600px and down) */
+
+html {
+  background-color: #F7BF70;
+}
+
+body {
+  min-height: 100vh;
+  background: url("../Pics/Banner-Final.jpg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  /* background-posit/ion: 50% 0%; */
+  font-family: 'open sans condensed', sans-serif;
+  background-color: #F7BF70;
+  color: #000;
+  letter-spacing: 1.5px;
+}
+
+.profile-pic{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: #B500FB solid 3px;
+  filter:drop-shadow(0px 0px 15px rgba(181, 0, 251, 1));
+}
+
+/* .twitchplayer{
+  height:150%;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.logos{
+  width: 70%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: rgba(247, 191, 112, 0.3);
+  filter:drop-shadow(0px 0px 15px rgba(181, 0, 251, 1));
+}
+figcaption {
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+img{
+  transition: all .2s ease-in-out;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+.col-small {
+  max-height: 2%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  background-color: rgba(247, 191, 112, 0.3);
+}
+
+i{
+  padding: 10px;
+  color: rgba(0,0,0,0.9);
+  filter:drop-shadow(0px 0px 5px rgba(181, 0, 251, 1));
+}
+i:hover {
+  color: rgba(1, 1, 1, 0.4);
+  transform: scale(1.1);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  .profile-pic{
+    width: 150px;
+    height: 150px;
+  }
+
+  /* .twitchplayer{
+    height:90%;
+  } */
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
