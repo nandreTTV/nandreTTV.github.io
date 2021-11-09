@@ -38,10 +38,9 @@ body {
 } */
 
 .logos{
-  width: 70%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   border-radius: 10px;
-  /* background-color: rgba(247, 191, 112, 0.3); */
   filter:drop-shadow(5px 5px 5px rgba(0, 0, 0, 1))
          drop-shadow(5px 5px 1px rgba(181, 0, 251, 1));
 }
@@ -90,6 +89,10 @@ i:hover {
     height: 150px;
   }
 
+  .logos{
+    width: 70%;
+    height: 80%;
+}
   /* .twitchplayer{
     height:90%;
   } */
