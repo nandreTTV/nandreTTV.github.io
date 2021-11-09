@@ -21,11 +21,13 @@ body {
 }
 
 .profile-pic{
-  width: 125px;
-  height: 125px;
+  max-width: 120px;
+  max-height: 120px;
   border-radius: 50%;
-  border: #B500FB solid 3px;
-  filter:drop-shadow(0px 0px 15px rgba(181, 0, 251, 1));
+  box-shadow:0px 0px 5px 3px rgba(251, 0, 37, 1),
+             0px 0px 1px 9px rgba(181, 0, 251, 1),
+             0px 0px 1px 11px rgba(255, 255, 255, 1);
+  filter:drop-shadow(5px 5px 5px rgba(0, 0, 0, 1));
 }
 
 /* .twitchplayer{
@@ -39,11 +41,12 @@ body {
   width: 70%;
   height: 80%;
   border-radius: 10px;
-  background-color: rgba(247, 191, 112, 0.3);
-  filter:drop-shadow(0px 0px 15px rgba(181, 0, 251, 1));
+  /* background-color: rgba(247, 191, 112, 0.3); */
+  filter:drop-shadow(5px 5px 5px rgba(0, 0, 0, 1))
+         drop-shadow(5px 5px 1px rgba(181, 0, 251, 1));
 }
 figcaption {
-  font-size: 15px;
+  font-size: 18px;
   border-radius: 10px;
   color: white;
   text-shadow: 2px 2px 3px black;
@@ -66,17 +69,17 @@ footer {
   bottom: 0;
   width: 100%;
   color: black;
-  background-color: rgba(247, 191, 112, 0.3);
+  /* background-color: rgba(236, 160, 91, 0.9); */
 }
 
 i{
   padding: 10px;
   color: rgba(0,0,0,0.9);
-  filter:drop-shadow(0px 0px 5px rgba(181, 0, 251, 1));
+  filter:drop-shadow(2px 2px 5px rgba(181, 0, 251, 1));
 }
 i:hover {
-  color: rgba(1, 1, 1, 0.4);
-  transform: scale(1.1);
+  color: rgba(1, 1, 1, 1);
+  transform: scale(1.2);
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
