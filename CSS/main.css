@@ -5,28 +5,28 @@
 
 html {
   background-color: #F7BF70;
-}
-
-body {
-  min-height: 100vh;
   background: url("../Pics/Banner-Final.jpg") center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment:fixed;
+}
+
+body {
+  min-height: 100vh;
   /* background-posit/ion: 50% 0%; */
   font-family: 'open sans condensed', sans-serif;
-  background-color: #F7BF70;
+  background-color: rgba(0,0,0,0.6);
   color: #000;
   letter-spacing: 1.5px;
 }
 
 .profile-pic{
-  max-width: 180px;
-  max-height: 180px;
+  max-width: 100px;
+  max-height: 100px;
   border-radius: 50%;
-  box-shadow:0px 0px 5px 3px rgba(251, 0, 37, 1),
-             0px 0px 1px 8px rgba(181, 0, 251, 1),
-             0px 0px 1px 11px rgba(255, 255, 255, 1);
+  /* box-shadow:0px 0px 5px 3px rgba(251, 0, 37, 1),
+             0px 0px 1px 9px rgba(181, 0, 251, 1),
+             0px 0px 0.5px 11px rgba(255, 255, 255, 1); */
   filter:drop-shadow(5px 5px 5px rgba(0, 0, 0, 1));
 }
 
@@ -38,29 +38,29 @@ body {
 } */
 
 .logos{
-  width: 45%;
-  height: 80%;
+  width: 50%;
+  height: 100%;
   border-radius: 10px;
-  filter:drop-shadow(0px 0px 2px rgba(8,8,8, 1))
+  /* filter:drop-shadow(0px 0px 2px rgba(8,8,8, 1))
          drop-shadow(0px 0px 3px rgba(8,8,8, 1))
          drop-shadow(0px 0px 4px rgba(8,8,8, 1))
          drop-shadow(0px 0px 5px rgba(8,8,8, 1))
-         drop-shadow(0px 0px 1px rgba(181, 0, 251, 1));
+         drop-shadow(0px 0px 1px rgba(181, 0, 251, 1)); */
+  filter:drop-shadow(2px 2px 3px rgba(8,8,8, 1));
 }
 figcaption {
   font-size: 24px;
   border-radius: 10px;
   color: white;
   text-shadow: 2px 2px 1px black;
-  filter:drop-shadow(1px 1px 2px rgba(8,8,8, 1))
-         drop-shadow(2px 2px 3px rgba(8,8,8, 1));
+  filter: drop-shadow(2px 2px 3px rgba(8,8,8, 1));
 }
 img{
   transition: all .2s ease-in-out;
 }
 
 img:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .col-small {
@@ -68,21 +68,21 @@ img:hover{
 }
 
 footer {
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
   color: black;
-  background-color: rgba(236, 160, 91, 0.7);
+  /* background-color: rgba(236, 160, 91, 0.3); */
 }
 
 i{
-  padding: 10px;
-  color: rgba(0,0,0,0.9);
-  filter:drop-shadow(1px 1px 2px rgba(181, 0, 251, 1));
+  padding: 2px;
+  color: rgba(255,255,255,0.6);
+  filter:drop-shadow(2px 2px 3px rgba(0, 0, 0, 1));
 }
 i:hover {
-  color: rgba(1, 1, 1, 1);
+  color: rgba(255, 255, 255, 1);
   transform: scale(1.2);
 }
 
@@ -95,9 +95,9 @@ i:hover {
   }
 
   .logos{
-    width: 70%;
-    height: 80%;
-}
+    width: 35%;
+    height: 100%;
+  }
   /* .twitchplayer{
     height:90%;
   } */
@@ -107,4 +107,8 @@ i:hover {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+  .logos{
+    width: 25%;
+    height: 100%;
+  }
 }
