@@ -21,8 +21,8 @@ body {
 }
 
 .profile-pic{
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 50px;
+  max-height: 50px;
   border-radius: 50%;
   /* box-shadow:0px 0px 5px 3px rgba(251, 0, 37, 1),
              0px 0px 1px 9px rgba(181, 0, 251, 1),
@@ -94,8 +94,8 @@ i:hover {
 @media only screen and (min-width: 600px) {
 
   .profile-pic{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
   .logos{
@@ -110,6 +110,10 @@ i:hover {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .profile-pic{
+    width: 150px;
+    height: 150px;
+  }
 
   .logos{
     width: 25%;
